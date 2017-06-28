@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云层滚动实例</title>
+    <style type="text/css">
+        div{
+            width: 400px;
+            background-color: skyblue;
+            margin: 200px auto;
+            border:1px solid red;
+            overflow: hidden;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            width: 1200px;
+            list-style: none;
+            background-color: #000;
+            animation:move 5s linear 0s infinite;
+        }
+        @keyframes move {
+            from{
+                margin:0;
+            }
+            to{
+                margin-left: -800px;
+            }
+            
+        }
+        ul li{
+            float: left;
+            height: 200px;
+        }
+        ul:hover {
+            animation-play-state: paused;
+        }
+        ul:hover li{
+            opacity: 0.5;
+           }
+        ul li:hover{
+            opacity: 1;
+        }
+        ul li img{
+            height: 200px;
+            width: 200px;
+        }
+        marquee{
+            width: 400px;
+            height: 400px;
+        }
+        marquee img{
+            height: 200px;
+            width:200px;
+        }
+
+    </style>
+</head>
+<body>
+<div><ul>
+    <li><img src="../images/c1.jpg" /></li>
+    <li><img src="../images/c2.jpg" /></li>
+    <li><img src="../images/c3.jpg" /></li>
+    <li><img src="../images/c4.jpg" /></li>
+    <li><img src="../images/c1.jpg" /></li>
+    <li><img src="../images/c2.jpg" /></li>
+</ul>
+</div>
+<marquee direction="up" bgcolor="skyblue" scrollamount="20px" onmouseover="this.stop()" onmouseout="this.start()">
+    <img src="../images/c1.jpg" />
+    <img src="../images/c2.jpg" />
+    <img src="../images/c3.jpg" />
+    <img src="../images/c4.jpg" />
+    <img src="../images/c1.jpg" />
+    <img src="../images/c2.jpg" /></marquee>
+</body>
+</html>
