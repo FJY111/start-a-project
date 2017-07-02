@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>移动登录</title>
+    <style>
+        body,ul,p{
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        body{
+            background-color: rgb(239,240,244);
+        }
+        p{
+            text-align: center;
+        }
+        li{
+            list-style: none;
+        }
+        header{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 720px;
+            height: 88px;
+            margin:0 auto;
+            background-color: rgb(95,192,205);
+        }
+        header p:nth-of-type(1){
+            float: left;
+            height: 88px;
+            line-height: 88px;
+            padding-left: 10px;
+        }
+        header p:nth-of-type(2){
+            width: 20%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -10%;
+            margin-top: -10.5px;
+
+        }
+        header p:nth-of-type(3){
+            float: right;
+            height: 88px;
+            line-height: 88px;
+            padding-right: 10px;
+        }
+        .main{
+            width: 720px;
+            height: 88px;
+            margin:0 auto;
+        }
+        .main li{
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .main li div{
+            position: absolute;
+            top: 50%;
+            left: 50px;
+            margin-top:-25px;
+        }
+        .main li div img{
+            height: 50px;
+        }
+        .main input{
+            width: 720px;
+            height: 100px;
+            box-sizing: border-box;
+            padding-left:120px;
+            font-size: 18px;
+            outline: none;
+        }
+        .main input[type="text"]{
+            margin: 10px 0;
+        }
+        .main input[type="password"]{
+            margin-bottom:20px;
+        }
+        .main input[type="submit"]{
+            padding:0;
+            text-align: center;
+            background-color: rgb(95,192,205);
+            color: white;
+        }
+        .main p:last-child{
+            text-align: right;
+            color: blue;
+            line-height: 40px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <p>关闭</p>
+    <p>登陆</p>
+    <p>注册</p>
+</header>
+<div class="main">
+    <ul>
+        <li>
+            <div>
+                <img src="iphone.png" alt="images lost" />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="icon.png" alt="images lost" />
+            </div>
+            <input type="text" name="account" placeholder="请输入手机号"/>
+        </li>
+        <li>
+            <div>
+                <img src="locked%202.png" alt="images lost" />
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="icon.png" alt="images lost" />
+            </div>
+            <input type="password" name="psw" placeholder="请输入密码" />
+        </li>
+        <li>
+            <input type="submit" value="登陆" />
+        </li>
+    </ul>
+    <p>忘记密码</p>
+</div>
+</body>
+</html>
