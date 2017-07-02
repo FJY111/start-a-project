@@ -2,7 +2,7 @@
 <html lang="zh-cmn-Hans">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>移动登录</title>
     <style>
         html{
@@ -23,20 +23,36 @@
             list-style: none;
         }
         header{
-            display: flex;
-            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            left: 0;
             width: 100%;
+            height:50px;
             background-color: rgb(95,192,205);
         }
+
         header p{
-            height: 180px;
-            line-height: 180px;
-            font-size: 6rem;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1.6rem;
+            padding: 0 10px;
+        }
+        header p:nth-of-type(1){
+            float: left;
         }
         header p:nth-of-type(2){
-            font-size: 7rem;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 20%;
+            margin-left: -10%;
+            font-size: 2rem;
+        }
+        header p:nth-of-type(3){
+            float: right;
         }
         .main{
+            margin-top: 50px;
             width: 100%;
         }
         .main li{
@@ -47,18 +63,23 @@
         .main li div{
             position: absolute;
             top: 50%;
-            left: 50px;
-            margin-top:-25px;
+            left: 10px;
+        }
+        .main li:nth-of-type(1) div{
+            margin-top:-15px;
+        }
+        .main li:nth-of-type(2) div{
+            margin-top: -25px;
         }
         .main li div img{
-            height: 50px;
+            height: 30px;
         }
         .main input{
             width: 100%;
-            height: 100px;
+            height: 60px;
             box-sizing: border-box;
-            padding-left:120px;
-            font-size: 1.8rem;
+            padding-left:50px;
+            font-size: 1rem;
             outline: none;
         }
         .main input[type="text"]{
@@ -91,7 +112,7 @@
         <li>
             <div>
                 <img src="iphone.png" alt="images lost" />
-                &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;
                 <img src="icon.png" alt="images lost" />
             </div>
             <input type="text" name="account" placeholder="请输入手机号"/>
@@ -99,13 +120,13 @@
         <li>
             <div>
                 <img src="locked%202.png" alt="images lost" />
-                &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;
                 <img src="icon.png" alt="images lost" />
             </div>
             <input type="password" name="psw" placeholder="请输入密码" />
         </li>
         <li>
-            <input type="submit" value="登陆" />
+            <input type="submit" value="登 &nbsp;陆" />
         </li>
     </ul>
     <p>忘记密码</p>
