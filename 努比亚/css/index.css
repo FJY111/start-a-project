@@ -19,6 +19,7 @@ body{
     font-family: 微软雅黑;
     font-size: 16px;
     color: gray;
+    background-color: rgb(245,245,245);
 }
 a:link{
     text-decoration: none;
@@ -106,6 +107,7 @@ header nav{
     position: absolute;
     top: 0;
     left:0;
+    z-index: 999;
     width: 100%;
     height: 121px;
     background-color: rgb(245,245,245);
@@ -147,6 +149,7 @@ header nav{
     height: 600px;
     margin-bottom: 10px;
     text-align: center;
+    overflow: hidden;
 }
 .figure img{
     height: 600px;
@@ -230,4 +233,151 @@ header nav{
     60%{  transform: scale(.9);}
     80%{  transform: scale(1);}
     100%{  transform: scale(1);}
+}
+
+.content{
+    width: 1200px;
+    height: 1883px;
+    margin: 0 auto;
+}
+.content dd h2{
+    padding-top: 40px;
+    font-size: 36px;
+    color:#333;
+    text-align: center;
+}
+.content dd p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color:#e8340e;
+    text-align: center;
+}
+.new-product{
+    width: 1200px;
+    height: 1200px;
+}
+.new-product li{
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.new-product li:nth-of-type(1){
+    width: 1200px;
+    height: 395px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.new-product li:nth-of-type(2){
+    width: 395px;
+    height: 795px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.new-product li:nth-of-type(3){
+    width: 795px;
+    height: 390px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.new-product li:nth-of-type(4){
+    width: 390px;
+    height: 395px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.new-product li:nth-of-type(5){
+    width: 395px;
+    height: 395px;
+    background-color: #fff;
+}
+.new-product li img{
+    width:100%;
+}
+.new-product li:nth-of-type(1) img{
+    margin-top: 50px;
+    transition: margin-left 1s;
+}
+.new-product li:nth-of-type(1):hover img{
+    margin-left: 100px;
+}
+.new-product li:nth-of-type(2) img,
+.new-product li:nth-of-type(4) img,
+.new-product li:nth-of-type(5) img{
+    transition: transform 1s;
+}
+.new-product li:nth-of-type(3) img{
+    margin-left: 100px;
+    transition: margin-left 1s;
+}
+.new-product li:nth-of-type(2):hover img,
+.new-product li:nth-of-type(4):hover img,
+.new-product li:nth-of-type(5):hover img{
+    transform: scale(1.2);
+}
+.new-product li:nth-of-type(3):hover img{
+    margin-left: 0px;
+}
+.new-product li:nth-of-type(3):hover img{}
+.phone-dec{
+    position: absolute;
+    bottom: 150px;
+    right: 100px;
+    width: 200px;
+    text-align: center;
+}
+.new-product li:nth-of-type(2) .phone-dec,
+.new-product li:nth-of-type(3) .phone-dec{
+    bottom: 50px;
+    left: 50%;
+    margin-left: -100px;
+}
+.new-product li:nth-of-type(4) .phone-dec,
+.new-product li:nth-of-type(5) .phone-dec{
+    bottom: 15px;
+    left: 50%;
+    margin-left: -100px;
+}
+.phone-dec h3{
+    font-size: 20px;
+    color: #000;
+}
+.phone-dec p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.phone-dec span{
+    display: block;
+    width: 108px;
+    height: 32px;
+    margin:0 auto;
+    border:1px solid rgb(245,245,245);
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 32px;
+}
+.accessory{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.accessory li{
+    width: 295px;
+    height: 300px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.accessory li img{
+    width: 100%;
+    transition: transform 1s;
+}
+.accessory li:hover img{
+    transform: scale(1.2);
+}
+.accessory li h4{
+    font-size:14px;
+    text-align: center;
+    padding-top: 20px;
 }
