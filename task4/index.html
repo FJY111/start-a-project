@@ -23,38 +23,21 @@
             list-style: none;
         }
         header{
-            position: relative;
-            top: 0;
-            left: 0;
+            display: flex;
+            justify-content: space-between;
             width: 100%;
-            height: 88px;
             background-color: rgb(95,192,205);
         }
-        header p:nth-of-type(1){
-            float: left;
-            height: 88px;
-            line-height: 88px;
-            padding-left: 10px;
+        header p{
+            height: 180px;
+            line-height: 180px;
+            font-size: 6rem;
         }
         header p:nth-of-type(2){
-            width: 20%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin-left: -10%;
-            margin-top: -10.5px;
-
-        }
-        header p:nth-of-type(3){
-            float: right;
-            height: 88px;
-            line-height: 88px;
-            padding-right: 10px;
+            font-size: 7rem;
         }
         .main{
             width: 100%;
-            height: 88px;
-            margin:0 auto;
         }
         .main li{
             position: relative;
@@ -75,7 +58,7 @@
             height: 100px;
             box-sizing: border-box;
             padding-left:120px;
-            font-size: 18px;
+            font-size: 1.8rem;
             outline: none;
         }
         .main input[type="text"]{
