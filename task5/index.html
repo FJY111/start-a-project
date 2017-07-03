@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>个人护工页</title>
+    <style>
+        html{
+            font-size: 62.5%;
+        }
+        body,ul,ol,h1,h2,p{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(95,192,205);
+            z-index: 999;
+        }
+        header a{
+            float: left;
+            margin-left: 10px;
+            font-size: 2.5rem;
+            text-decoration: none;
+            color: white;
+            line-height:40px;
+        }
+        header h1{
+            font-size: 2rem;
+            text-align: center;
+            color: #FFFFFF;
+            font-weight: normal;
+            line-height: 40px;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background-color: #fff;
+        }
+        footer a{
+            width: 48%;
+            box-sizing: border-box;
+            font-size: 1.8rem;
+            text-align: center;
+            line-height: 40px;
+            border: 2px solid rgb(95,192,250);
+            border-radius: 6px;
+        }
+        footer a:nth-of-type(1){
+            color: rgb(95,192,250);
+        }
+        footer a:nth-of-type(2){
+            background-color: rgb(95,192,250);
+        }
+        .m-top{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 180px;
+            margin-top: 40px;
+            background-image: url(bg.png);
+            background-repeat:no-repeat;
+            background-size: 100% 100%;
+        }
+        .photo{
+            position: absolute;
+            top: 50%;
+            margin-top: -50px;
+            left: 10px;
+        }
+        .photo img{
+            height: 100px;
+        }
+        .introduce{
+            position: absolute;
+            top: 60px;
+            left: 140px;
+        }
+        .introduce p{
+            color:white;
+            font-size: 1.5rem;
+        }
+        .introduce p:nth-of-type(1){
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .introduce p:nth-of-type(1) span{
+            padding-left: 5px;
+            font-size: 1.8rem;
+            margin-left:10px;
+        }
+        .introduce p:nth-of-type(2){
+            padding-left: 20px;
+            background-image: url(icon-1.png);
+            background-size:auto 100%;
+            background-repeat:no-repeat;
+        }
+        .m-bottom{
+            width: 100%;
+        }
+        .m-bottom h2{
+            padding-left: 30px;
+            border-bottom: 1px solid gray;
+            font-size: 2rem;
+            line-height: 50px;
+            background-image: url(icon-2.png);
+            background-repeat:no-repeat;
+            background-position: 20px center;
+        }
+        .m-bottom ul li{
+            margin:0 10px;
+            border-bottom: 1px solid gray;
+            line-height: 50px;
+            font-size: 1.8rem;
+            color: gray;
+            padding:0 10px;
+        }
+        .m-bottom ul li img{
+            vertical-align: middle;
+            padding:0 10px;
+        }
+        .m-bottom li span{
+            font-size: 1.5rem;
+            color: black;
+        }
+        .m-bottom li:nth-of-type(1){
+            font-size: 1.5rem;
+        }
+        .m-bottom li:nth-of-type(1) img{
+            width:15px;
+            vertical-align: baseline;
+        }
+        .m-bottom li:nth-of-type(4) span{
+            color: red;
+        }
+        .m-bottom li:nth-of-type(5){
+            margin-bottom: 50px;
+        }
+        .m-bottom li:nth-of-type(5) span{
+            display: inline-block;
+            width: 60%;
+            vertical-align: middle;
+            line-height:20px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="#">&lt;</a>
+    <h1>个人主页</h1>
+</header>
+<main>
+    <div class="m-top">
+        <div class="photo">
+            <img src="photo.png" alt="images lost">
+        </div>
+        <div class="introduce">
+            <p>高素雅<span>55岁</span></p>
+            <p>北京.通州.果园</p>
+        </div>
+    </div>
+    <div class="m-bottom">
+        <h2>专业技能</h2>
+        <ul>
+            <li><img src="star.png" alt="lost">住家 <img src="star.png" alt="lost">不含餐</li>
+            <li>从业年限 <img src="icon-3.png" alt="lost"><span>0-3年</span></li>
+            <li>工作时间 <img src="icon-3.png" alt="lost"><span>全天</span></li>
+            <li>服务价格 <img src="icon-3.png" alt="lost"><span>25元/小时</span></li>
+            <li>自我介绍 <img src="icon-3.png" alt="lost"><span>可以洗衣、做饭、照顾老人。在护工方面有5年的经验，经验丰富</span></li>
+        </ul>
+    </div>
+</main>
+<footer>
+        <a href="#">留 言</a>
+        <a href="#">电话联系</a>
+</footer>
+</body>
+</html>
