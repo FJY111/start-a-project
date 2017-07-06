@@ -62,6 +62,7 @@ header{
 .content{
     margin-top: 6.4rem;
     width: 100%;
+    margin-bottom: 3.5rem;
 }
 .content li{
     position: relative;
