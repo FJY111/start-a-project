@@ -1,0 +1,104 @@
+html{
+    font-size: 62.5%;
+    background-color: rgb(240,240,240);
+}
+header{
+    width: 100%;
+    background-color: rgb(41,189,224);
+    border: 1px solid rgb(41,189,224);
+}
+header ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+    min-height: 3rem;
+}
+ header ul li{
+     width: 6%;
+     height: 0;
+     margin:0.2rem;
+     border:1px solid white;
+ }
+ main{
+     position: relative;
+     width: 90%;
+     margin: 1rem auto;
+ }
+ .top{
+     background-color: #fff;
+     padding:1rem 0;
+     border:1px solid gray;
+ }
+ .top p{
+     font-size: 1.6rem;
+     color: rgb(200,200,200);
+     text-align: center;
+
+ }
+ .top img{
+     float:right;
+     height: 1.6rem;
+     margin-right: 1rem;
+ }
+ .content{
+     border:1px solid gray;
+     background-color: #fff;
+     margin-top: 1rem;
+ }
+ .content h1{
+     padding:1rem 0;
+     text-align: center;
+     font-size: 1.8rem;
+     color:rgb(251,180,53);
+     border-bottom: 1px solid rgb(251,180,53);
+ }
+ .content ul{
+     margin: 1.2rem 2rem;
+ }
+ .content ul li p{
+     padding: 1.2rem 0;
+     font-size: 1.6rem;
+     color: #fff;
+     background-color: rgb(105,209,233);
+     text-align: center;
+ }
+ .content ul li span{
+     display: inline-block;
+     width: 100%;
+     text-align: center;
+     padding: 0.8rem 0;
+     color: gray;
+ }
+ main>ul{
+     position: absolute;
+     left:50%;
+     bottom:0.5rem;
+     margin-left: -2rem;
+ }
+ main>ul li{
+     float: left;
+     width: 0.8rem;
+     height: 0.8rem;
+     margin: 0 0.2rem;
+     border-radius: 50%;
+     background-color: rgb(240,240,240);
+ }
+ main>ul li:first-child{
+     background-color: rgb(105,209,233);
+ }
+ main>ul a{
+     display: inline-block;
+     text-decoration: none;
+ }
+ main>button{
+     position: absolute;
+     top: 50%;
+     right: 0.3rem;
+     outline: none;
+     background-color: #fff;
+     border:none;
+ }
+ main>button img{
+     width: 0.8rem;
+ }
