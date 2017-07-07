@@ -95,9 +95,8 @@ header ul{
      position: absolute;
      top: 50%;
      right: 0.3rem;
-     z-index: -1;
      outline: none;
-     background-color: #fff;
+     background-color: transparent;
      border:none;
  }
  main>button img{
