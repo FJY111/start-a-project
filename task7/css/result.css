@@ -1,0 +1,103 @@
+html{
+    font-size: 62.5%;
+}
+body,ul,ol,p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+header{
+    padding-bottom: 1.2rem;
+    background-color: #29bde0;
+}
+header nav{
+    height: 4.5rem;
+    line-height: 4.5rem;
+    border-bottom: 0.1rem solid #74d4eb;
+}
+header nav  a:first-child{
+    float: left;
+    margin-left: 1rem;
+}
+header nav  a:nth-child(2){
+    float: right;
+    margin-right: 1rem;
+}
+header nav  a img{
+    height: 2.2rem;
+}
+header nav p{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+.content{
+    text-align: center;
+    line-height: 12rem;
+    margin-bottom: 2.5rem;
+}
+.content img{
+    height: 10rem;
+
+}
+.content p{
+    line-height: normal;
+    text-align: left;
+    color: #ffc865;
+    font-size: 2rem;
+}
+.row{
+    padding: 0 3%;
+}
+.info{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.main{
+    border-bottom: 2px solid #ddd;
+    padding: 1rem 0;
+}
+.main p{
+    font-size: 1.5rem;
+    color: #a6a6a6;
+}
+.main p:nth-of-type(1){
+    font-size: 1.8rem;
+    color: #000;
+}
+.main p:nth-of-type(1) span{
+    float: right;
+    color: #cbcbcb;
+    font-size: 1.5rem;
+}
+.middle{
+    margin-bottom: 6rem;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+    padding: 0.9rem 1.2rem;
+    background-color: rgba(153,223,240,0.5);
+}
+footer a{
+    width: 45%;
+    height: 4.2rem;
+    text-align: center;
+    line-height: 4.2rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+footer a:nth-of-type(1){
+    float: left;
+    background-color: #f66f6f;
+}
+footer a:nth-of-type(2){
+    float: right;
+    background-color: #fbb435;
+}
