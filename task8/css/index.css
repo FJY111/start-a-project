@@ -1,0 +1,84 @@
+/*header*/
+header>.container p {
+    margin: 0;
+    color: #29b078;
+    line-height: 40px;
+}
+header>.container .col-md-8 {
+    text-align: right;
+}
+header>.container .col-md-8 a {
+    line-height: 40px;
+}
+header nav {
+    background-color: #29b078;
+}
+header nav .col-md-12 {
+    text-align: right;
+}
+header nav ul {
+    display: inline-block;
+    margin: 0;
+    margin-right: -30px;
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+header nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+}
+/*main*/
+main {
+    padding-top: 160px;
+    background-color: #fafafa;
+}
+.intro {
+    text-align: center;
+}
+.intro h3 {
+    line-height: 62px;
+}
+.intro h3 img {
+    vertical-align: bottom;
+}
+.intro h4 {
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.intro p {
+    font-size: 16px;
+    text-align: left;
+    color: #bdbdbd;
+}
+.intro .row>div:nth-of-type(3) {
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: right;
+}
+.person {
+    padding: 45px 20px;
+    font-size: 18px;
+}
+.person p:nth-of-type(odd){
+    color: #26a26f;
+    padding-left: 20px;
+    background-image: url(../images/user.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+
