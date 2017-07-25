@@ -42,8 +42,10 @@ header nav ul li a:hover {
 /*main*/
 main {
     padding-top: 160px;
+    padding-bottom: 80px;
     background-color: #fafafa;
 }
+/*第一部分*/
 .intro {
     text-align: center;
 }
@@ -80,5 +82,238 @@ main {
     background-repeat: no-repeat;
     background-position: left center;
 }
+/*第二部分*/
+.learn {
+    margin-top: 65px;
+}
+.learn h4 {
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+}
+.learn p {
+    padding-left: 90px;
+    padding-right: 40px;
+    color: #999;
+    font-weight: bold;
+    line-height: 100px;
+    background-position: left center,right center;
+    background-repeat: no-repeat,no-repeat;
+}
+.learn p span {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.learn .row:nth-of-type(2) div:nth-of-type(1) p {
+    background-image: url(../images/1.png),url(../images/arrow.png);
+}
+.learn .row:nth-of-type(2) div:nth-of-type(2) p {
+    background-image: url(../images/2.png),url(../images/arrow.png);
+}
+.learn .row:nth-of-type(2) div:nth-of-type(3) p {
+    background-image: url(../images/3.png),url(../images/arrow.png);
+}
+.learn .row:nth-of-type(2) div:nth-of-type(4) p {
+    background-image: url(../images/4.png);
+    padding-right: 0;
+    margin-right: -15px;
+}
+.learn .row:nth-of-type(3) {
+    margin-top: 30px;
+}
+.learn .row:nth-of-type(3) div:nth-of-type(1) p{
+    background-image: url(../images/5.png),url(../images/arrow.png);
+}
+.learn .row:nth-of-type(3) div:nth-of-type(2) p{
+    background-image: url(../images/6.png),url(../images/arrow.png);
+}
+.learn .row:nth-of-type(3) div:nth-of-type(3) p{
+    background-image: url(../images/7.png),url(../images/arrow.png);
+}
+.learn .row:nth-of-type(3) div:nth-of-type(4) p{
+    background-image: url(../images/8.png);
+    padding-right: 0;
+    margin-right: -15px;
+}
+/*第三部分*/
+.excellent {
+    margin-top: 65px;
+}
+.excellent h4 {
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+}
+.excellent .row:nth-of-type(2) {
+    position: relative;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+.excellent .row:nth-of-type(2) ul {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin: 0 -80px;
+    list-style: none;
+}
+.excellent .row:nth-of-type(2) ul li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 5px #e2e2e2;
+}
+.excellent .row:nth-of-type(2) ul li:first-of-type {
+    background-color: #29b078;
+}
+.student {
+    padding: 15px 30px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #e2e2e2;
+}
+.student h4 {
+    line-height: 50px;
+}
+.student p {
+    font-size: 16px;
+    color: #999;
+    text-align: left;
+}
+/*第四部分*/
+.cooperation {
+    margin-top: 65px;
+}
+.cooperation h4 {
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+}
+.cooperation .row:nth-of-type(2) {
+    margin-top: 20px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #e2e2e2;
+    background-color: #fff;
+}
+ .col-md-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #fff;
+}
+@media ( min-width : 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+.col-md-5ths a {
+    display: inline-block;
+    width: 100%;
+    line-height: 195px;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.col-md-5ths a img {
+    margin: 0 -100%;
+    vertical-align: middle;
+}
+.col-md-5ths a:hover {
+    transform: scaleX(1.1);
+    box-shadow: 0 0 10px #e2e2e2;
+}
+/*footer*/
+.friendLink h4 {
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+}
+.friendLink ul {
+    margin: 0 -15px;
+    padding: 0;
+    color: #999999;
+}
+.friendLink ul:after {
+    display: table;
+    content: "";
+    height: 0;
+    clear: both;
+}
+.friendLink ul li {
+    float: left;
+    list-style-position: inside;
+    width: 80px;
+    margin: 0 18px;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.friendLink ul li:hover {
+    border-bottom: 1px solid #29b078;
+}
+.friendLink ul li a {
+    display: inline-block;
+    color: #999999;
+    text-decoration: none;
+}
+.in-footer {
+    color: #fff;
+    background-color: #29b078;
+}
+.in-footer .row {
+    padding-bottom: 20px;
+}
+.in-footer a {
+    color: #fff;
+}
+.in-footer .lead {
+    padding-top: 35px;
+    font-size: 16px;
+}
+.in-footer .about-us {
+    margin-left: -10px;
+    margin-top: 50px;
+}
+.in-footer .about-us a {
+    display: inline-block;
+    margin: 0 10px;
+}
+.site a {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+    line-height: 25px;
+    height: 25px;
+    box-sizing: border-box;
+}
+.site a:hover {
+    border-bottom: 1px solid #fff;
+}
+.weChat {
+    text-align: right;
+}
+.weChat p {
+    margin: 0;
+    padding: 0;
+}
+.copyRight {
+    border-top: 1px solid #32c086;
+    background-color: #29b078;
+    text-align: center;
+}
+.copyRight p {
+    margin: 0;
+    line-height: 30px;
+    color: #fff;
+}
+
 
 
