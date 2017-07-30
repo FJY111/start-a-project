@@ -1,0 +1,148 @@
+/*header*/
+header>.container p {
+    margin: 0;
+    color: #29b078;
+    line-height: 40px;
+}
+header>.container .col-md-8 {
+    text-align: right;
+}
+header>.container .col-md-8 a {
+    line-height: 40px;
+}
+header nav {
+    background-color: #29b078;
+}
+header nav .col-md-12 {
+    text-align: right;
+}
+header nav ul {
+    display: inline-block;
+    margin: 0;
+    margin-right: -30px;
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+header nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+}
+header nav .logo {
+    float: left;
+    line-height: 100px;
+}
+header .banner {
+    height: 248px;
+    background-image: url(../images/cooprative-enterprise/banner.png);
+    background-position: center center;
+}
+/*main  */
+main {
+    background-color: #fafafa;
+}
+main nav p {
+    margin: 0;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 80px;
+}
+main nav p span {
+    color: #29b078;
+}
+main .content .leftside,.rightside {
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ededed;
+}
+main .leftside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100px;
+
+}
+main .leftside ul li {
+    padding-left: 30px;
+    color: #29b078;
+    background-image: url(../images/cooprative-enterprise/list-1.png);
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    line-height: 50px;
+}
+main .leftside ul li:nth-of-type(3) {
+    background-image: url(../images/cooprative-enterprise/list-2.png);
+}
+main .leftside p {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    border-bottom: 1px solid #ededed;
+    line-height: 62px;
+    text-align: center;
+}
+
+
+/*footer  */
+.in-footer {
+    color: #fff;
+    background-color: #29b078;
+}
+.in-footer .row {
+    padding-bottom: 20px;
+}
+.in-footer a {
+    color: #fff;
+}
+.in-footer .lead {
+    padding-top: 35px;
+    font-size: 16px;
+}
+.in-footer .about-us {
+    margin-left: -10px;
+    margin-top: 50px;
+}
+.in-footer .about-us a {
+    display: inline-block;
+    margin: 0 10px;
+}
+.site a {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+    line-height: 25px;
+    height: 25px;
+    box-sizing: border-box;
+}
+.site a:hover {
+    border-bottom: 1px solid #fff;
+}
+.weChat {
+    text-align: right;
+}
+.weChat p {
+    margin: 0;
+    padding: 0;
+}
+.copyRight {
+    border-top: 1px solid #32c086;
+    background-color: #29b078;
+    text-align: center;
+}
+.copyRight p {
+    margin: 0;
+    line-height: 30px;
+    color: #fff;
+}
