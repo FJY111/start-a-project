@@ -93,6 +93,36 @@ main .leftside p {
     line-height: 62px;
     text-align: center;
 }
+.rightside {
+    padding-bottom: 40px;
+    margin-bottom: 230px;
+}
+.summary {
+    height: 156px;
+    padding: 0 65px;
+    border-bottom: 1px solid #ededed;
+}
+.summary .icon {
+    float: left;
+    text-align: center;
+}
+.icon {
+    line-height: 156px;
+    margin-right: 35px;
+}
+.summary p {
+    padding: 25px 0;
+    color: #999;
+    line-height: 25px;
+}
+.details {
+    padding: 40px 65px;
+    color: #999;
+    line-height: 25px;
+}
+.details p {
+    margin-bottom: 40px;
+}
 
 
 /*footer  */
