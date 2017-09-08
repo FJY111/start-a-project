@@ -1,0 +1,419 @@
+body {
+    min-width: 1175px;
+    font: normal 12px/1.5 'Microsoft YaHei', 'SimSun';
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+/* header */
+
+.bar {
+    height: 36px;
+    border-bottom: 1px solid #e2e2e2;
+    line-height: 36px;
+}
+
+.bar ul {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.bar ul li {
+    float: left;
+    margin-right: 100px;
+}
+
+.bar .index {
+    padding-left: 20px;
+    background: url("../images/icons/icons_h3.png") left center no-repeat;
+}
+
+.bar .tel {
+    padding-left: 20px;
+    background: url("../images/icons/icons_tel3.png") left center no-repeat;
+}
+
+.bar ul li p span {
+    margin: 0 5px;
+}
+
+nav .container {
+    width: 1179px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav .logo {
+    float: left;
+    width: 100px;
+    height: 70px;
+    padding-right: 160px;
+    background: url("../images/icons/logo.png") left center no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+nav .menu {
+    overflow: hidden;
+}
+
+nav .menu li {
+    float: left;
+    height: 70px;
+    padding: 0 40px;
+    line-height: 70px;
+    font-size: 18px;
+}
+
+nav .menu li a {
+    color: #292929;
+}
+
+.banner {
+    position: relative;
+    height: 560px;
+    overflow: hidden;
+}
+
+.banner .slide-list {
+    position: absolute;
+    width: 9443px;
+    overflow: hidden;
+}
+
+.banner .slide-list li {
+    float: left;
+    width: 1349px;
+}
+
+.banner .slide-list li a {
+    display: block;
+    width: 100%;
+    height: 560px;
+    background: url("../images/index/feature1.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner .slide-buttons {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -65px;
+    z-index: 999;
+}
+
+.banner .slide-buttons li {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+/* main */
+main {
+    width: 100%;
+}
+
+.titles {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.titles h2 {
+    font-size: 20px;
+    font-weight: 100;
+    color: #444;
+}
+
+.titles span {
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 10px auto;
+    background-color: #7c7c7c;
+    
+}
+
+.titles .subtitle {
+    font-size: 14px;
+    color: #ccc;
+}
+/* recomend */
+.recomend {
+    width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.product-show {
+    position: relative;
+}
+
+.pre,.next {
+    position: absolute;
+    top: 58px;
+    right: 0;
+    width: 30px;
+    height: 70px;
+    background: url("../images/index/productshow/next2.png") no-repeat;
+}
+
+.pre {
+    left: 0;
+    background: url("../images/index/productshow/prev2.png") no-repeat;
+}
+
+.show-contain {
+    position: relative;
+    width: 1010px;
+    height: 206px;
+    margin: 0 80px;
+    overflow: hidden;
+}
+
+.show-contain ul {
+    position: absolute;
+    width: 2020px;
+    overflow: hidden; 
+}
+
+.show-contain ul li {
+    float: left;
+    width: 182px;
+    margin: 0 10px;
+}
+
+.show-contain .pic {
+    position: relative;
+    height: 182px;
+    overflow: hidden;
+}
+
+.show-contain .pic .show-info {
+    position: absolute;
+    top: 182px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.show-contain .show-title {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+/* content */
+
+.content {
+    background-color: #f0f0f0;
+}
+
+.service {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.application {
+    margin-bottom: 30px;
+}
+
+.application ul {
+    overflow: hidden;
+}
+
+.application>ul>li {
+    float: left;
+    height: 340px;
+}
+
+.service-title {
+    width: 200px;
+    margin-right: 8px;
+    background: url("../images/index/bg1.jpg");
+}
+
+.app-middle {
+    width: 610px;
+    margin-right: 10px;
+}
+
+.app-right {
+    width: 342px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background: #fff url("../images/index/icons_box1.jpg") center bottom no-repeat;
+}
+
+.app-right-title ul {
+    overflow: hidden;
+}
+
+.app-right-title ul li {
+    float: left;
+    width: 171px;
+    height: 50px;
+    background-color: #b3b3b3;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.app-right-content {
+    margin: 30px 0 0 30px;
+}
+
+.app-right-content ul {
+    padding-left: 10px;
+    background: url("../images/icons/icons_tri4.png") -2px 3px no-repeat;
+    overflow: hidden;
+}
+
+.app-right-content ul li {
+    float: left;
+    width: 63px;
+    height: 30px;
+    padding-left: 10px;
+
+}
+
+.app-right-content ul li a {
+    font-size: 14px;
+    color: #999;
+}
+
+
+
+.app-middle ul {
+    overflow: hidden;
+}
+
+.app-middle>ul>li {
+    float: left;
+    width: 200px;
+    height: 255px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.app-middle>ul>li:nth-child(2) {
+    margin: 0 5px;
+}
+
+.app-middle>ul>li:nth-of-type(4) {
+    width: 610px;
+    height: 75px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.app-middle>ul>li:nth-of-type(4) a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/index/i10.jpg");
+    background-size: 100% 100%;
+}
+
+.app-img {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.app-decoration h2 {
+    height: 34px;
+    line-height: 34px;
+    background-color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+}
+
+.app-decoration ul {
+    overflow: hidden;
+    margin-top: 10px;
+    padding-left: 10px;
+    background: url("../images/icons/icons_tri4.png") -2px 3px no-repeat;
+}
+
+.app-decoration ul li {
+    float: left;
+    width: 75px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.internet {
+    margin-bottom: 30px;
+}
+
+.internet ul {
+    overflow: hidden;
+}
+
+.internet>ul>li {
+    float: left;
+    height: 340px;
+    width: 200px;
+    background-color: blue;
+}
+.internet .service-title {
+    background-image: url("../images/index/bg2.jpg");
+}
+
+.internet ul>li:nth-of-type(3) {
+    width: 260px;
+    margin: 0 5px;
+}
+
+.internet ul>li:nth-of-type(4) {
+    width: 287px;
+    margin-right: 5px;
+}
+
+.finance {
+    margin-bottom: 30px;
+}
+
+.finance ul {
+    overflow: hidden;
+}
+
+.finance ul li {
+    float: left;
+    width: 220px;
+    height: 340px;
+    background-color: red;
+}
+
+.finance .service-title {
+    width: 200px;
+    background-image: url("../images/index/bg3.jpg");
+}
+
+.finance ul li:nth-of-type(2) {
+    width: 287px;
+    margin-right: 5px;
+}
+.finance ul li:nth-of-type(4) {
+    margin: 0 5px;
+}
+
+.news {
+    width: 1170px;
+    margin: 0 auto;
+}
