@@ -1,6 +1,7 @@
 body {
     min-width: 1175px;
     font: normal 12px/1.5 'Microsoft YaHei', 'SimSun';
+    color: #666;
 }
 
 a {
@@ -10,6 +11,15 @@ a {
 
 
 /* header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+}
 
 .bar {
     height: 36px;
@@ -43,7 +53,7 @@ a {
 }
 
 nav .container {
-    width: 1179px;
+    width: 1170px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -74,8 +84,271 @@ nav .menu li a {
     color: #292929;
 }
 
+nav .menu li:first-child a {
+    color: #fc000d;
+}
+
+nav .menu li a:hover {
+    color: #fc000d;
+}
+
+nav .menulist {
+    position: relative;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+nav .menulist>ul>li {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.software-left {
+    float: left;
+    width: 590px;
+}
+
+.software-right {
+    float: left;
+    width: 580px;
+}
+
+.software-title {
+    border-bottom: 1px solid #fc000d;
+    overflow: hidden;
+}
+
+.software-title span {
+    float: left;
+    padding: 0 10px;
+    background-color: #fc000d;
+    line-height: 35px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.software-left-content {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.software-left-content ul {
+    float: left;
+    box-sizing: border-box;
+}
+
+.software-left-content ul:nth-of-type(1) {
+    width: 180px;
+}
+
+.software-left-content ul:nth-of-type(2) {
+    width: 240px;
+}
+
+.software-left-content ul:nth-of-type(3) {
+    width: 130px;
+}
+
+.software-left-content ul li {
+    padding: 1px 10px;
+}
+
+.software-left-content ul li span {
+    font-size: 16px;
+    color: #fc000d;
+}
+
+.software-left-content ul li a {
+    font-size: 14px;
+    color: #808080;
+    line-height: 25px;
+}
+
+.software-left-content ul li a:hover {
+    text-decoration: underline;
+    color: #fc000d;
+}
+
+.software-right-content {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.software-right-content ul {
+    float: left;
+}
+
+.software-right-content ul li {
+    float: left;
+}
+
+.software-right-content ul li a {
+    display: block;
+    margin-right: 38px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #808080;
+}
+
+.software-right-content ul li a:hover {
+    color: #fc000d;
+    border-bottom: 1px solid #fc000d;
+}
+
+.software-right-content .software-right-content-title {
+    float: none;
+    font-size: 16px;
+    color: #fc000d;
+}
+
+.other {
+    clear: both;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ccc;
+    font-size: 16px;
+    color: #808080;
+    text-align: center;
+}
+
+.dot {
+    position: absolute;
+    left: 50%;
+    bottom: 35px;
+    width: 20px;
+    height: 10px;
+    margin-left: -10px;
+    background: url("../images/index/pic4.jpg") no-repeat center center;
+}
+
+.cloudservice {
+    padding: 10px 0;
+}
+
+.cloudservice-title {
+    overflow: hidden;
+}
+
+.cloudservice-title ul {
+    overflow: hidden;
+    border-bottom: 1px solid #fc000d;
+}
+
+.cloudservice-title ul li {
+    float: left;
+    width: 15%;
+    line-height: 35px;
+    font-size: 18px;
+    color: #fc000d;
+}
+
+.cloudservice-title ul li:first-child {
+    margin-left: 9%;
+}
+
+.cloudservice-content ul {
+    float: left;
+    width: 15%;
+}
+
+.cloudservice-content ul:first-child {
+    margin-left: 9%;
+}
+
+.cloudservice-content ul li a {
+    font-size: 14px;
+    color: #808080;
+    line-height: 25px;
+}
+
+.cloudservice-content ul li a:hover {
+    color: #fc000d;
+    text-decoration: underline;
+}
+
+.cloudservice .dot {
+    bottom: 10px;
+}
+
+.finance-list {
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.finance-list-left,.finance-list-right {
+    float: left;
+    width: 500px;
+    border-top: 1px solid #fc000d;
+    padding-top: 40px;
+}
+
+.finance-list-right {
+    float: right;
+}
+
+.finance-list-pic {
+    float: left;
+    margin-right: 50px;
+}
+
+.finance-list-text {
+    float: left;
+}
+
+.finance-list-text ul li {
+    padding: 6px 0;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.finance-list-text ul li a {
+    color: #808080;
+}
+
+.finance-list-text ul li:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    color: #8a8a8a;
+}
+
+.aboutus {
+    border-top: 1px solid #fc000d;
+    padding: 40px 0 60px 0;
+}
+
+.aboutus-pic {
+    float: left;
+    margin-right: 60px;
+
+}
+
+.aboutus ul {
+    float: right;
+    width: 420px;
+    font-size: 16px;
+    overflow: hidden;
+}
+.aboutus ul li {
+    float: left;
+    width: 120px;
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+.aboutus ul li a {
+    color: #8a8a8a;
+}
+/* main */
+
+main {
+    width: 100%;
+    margin-top: 106px;
+}
+
 .banner {
     position: relative;
+    width: 1349px;
     height: 560px;
     overflow: hidden;
 }
@@ -108,6 +381,7 @@ nav .menu li a {
 }
 
 .banner .slide-buttons li {
+    cursor: pointer;
     float: left;
     width: 16px;
     height: 16px;
@@ -115,9 +389,9 @@ nav .menu li a {
     border-radius: 50%;
     background-color: #fff;
 }
-/* main */
-main {
-    width: 100%;
+
+.banner .slide-buttons .active {
+    background-color: #fc000d; 
 }
 
 .titles {
@@ -137,14 +411,16 @@ main {
     height: 2px;
     margin: 10px auto;
     background-color: #7c7c7c;
-    
 }
 
 .titles .subtitle {
     font-size: 14px;
     color: #ccc;
 }
+
+
 /* recomend */
+
 .recomend {
     width: 1170px;
     margin: 0 auto;
@@ -155,7 +431,8 @@ main {
     position: relative;
 }
 
-.pre,.next {
+.pre,
+.next {
     position: absolute;
     top: 58px;
     right: 0;
@@ -169,6 +446,10 @@ main {
     background: url("../images/index/productshow/prev2.png") no-repeat;
 }
 
+.pre:hover,.next:hover {
+    background-position: 0 -70px;
+}
+
 .show-contain {
     position: relative;
     width: 1010px;
@@ -180,7 +461,7 @@ main {
 .show-contain ul {
     position: absolute;
     width: 2020px;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .show-contain ul li {
@@ -213,6 +494,8 @@ main {
     line-height: 24px;
     text-align: center;
 }
+
+
 /* content */
 
 .content {
@@ -260,6 +543,7 @@ main {
 }
 
 .app-right-title ul li {
+    cursor: pointer;
     float: left;
     width: 171px;
     height: 50px;
@@ -269,6 +553,11 @@ main {
     font-size: 16px;
     color: #fff;
 }
+
+.app-right-title .apptab{
+    background-color: #ff543d;
+}
+
 .app-right-content {
     margin: 30px 0 0 30px;
 }
@@ -284,15 +573,12 @@ main {
     width: 63px;
     height: 30px;
     padding-left: 10px;
-
 }
 
 .app-right-content ul li a {
     font-size: 14px;
     color: #999;
 }
-
-
 
 .app-middle ul {
     overflow: hidden;
@@ -369,8 +655,8 @@ main {
     float: left;
     height: 340px;
     width: 200px;
-    background-color: blue;
 }
+
 .internet .service-title {
     background-image: url("../images/index/bg2.jpg");
 }
@@ -397,7 +683,6 @@ main {
     float: left;
     width: 220px;
     height: 340px;
-    background-color: red;
 }
 
 .finance .service-title {
@@ -409,11 +694,368 @@ main {
     width: 287px;
     margin-right: 5px;
 }
+
 .finance ul li:nth-of-type(4) {
     margin: 0 5px;
+}
+
+.boxhalf {
+    height: 168px;
+    margin-bottom: 4px;
 }
 
 .news {
     width: 1170px;
     margin: 0 auto;
+}
+
+.product-link {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.product-link img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-link p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.product-link .link-text {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.product-link .link-text h2 {
+    width: 100%;
+    height: 44px;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.product-link .link-text a {
+    display: block;
+    width: 160px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #ffa517;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.news {
+    padding-bottom: 120px;
+}
+
+.news-content {
+    overflow: hidden;
+}
+
+.news-img {
+    float: left;
+}
+
+.news-list {
+    float: right;
+    width: 660px;
+    padding: 20px 0;
+}
+
+.news-list .news-menu ul {
+    overflow: hidden;
+}
+
+.news-menu ul li {
+    cursor: pointer;
+    float: left;
+    padding: 0 25px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #666;
+}
+
+.news-menu .news-active {
+    background: url("../images/index/icons_tri5.png") no-repeat right center;
+    color: #e82c12;
+}
+
+.news-article {
+    position: relative;
+    height: 320px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.news-one {
+    position: absolute;
+    width: 100%;
+}
+
+.news-one-head {
+    padding: 30px 0 18px 0;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.news-one-head-left {
+    float: left;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.day {
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    color: #ee5c48;
+}
+
+.year {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+    color: #999;
+}
+
+.news-one-head-right {
+    padding: 0 0 0 121px;
+}
+
+.news-one-head-right h2 a {
+    display: block;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #ee5c48;
+}
+
+.more {
+    line-height: 20px;
+    text-align: right;
+}
+
+.more a {
+    font-size: 14px;
+    color: #ee5c48;
+}
+
+.news-text {
+    width: 635px;
+    padding: 24px 0 0 0;
+}
+
+.news-text ul li {
+    height: 36px;
+    padding-left: 30px;
+    background: url("../images/index/icons_tri7.png") no-repeat left 3px;
+}
+
+.news-text ul li span {
+    float: right;
+    font-size: 12px;
+    color: #434343;
+}
+
+.news-text ul li a {
+    font-size: 14px;
+}
+
+.news-two .more,
+.news-four .more,
+.news-five .more {
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+}
+
+.news-title {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+}
+
+.news-title span {
+    float: left;
+}
+
+.news-title .more2 {
+    float: right;
+}
+
+.news-title .more2 a {
+    color: #ee5c48;
+}
+
+.news-three ul {
+    padding: 24px 0 0 0;
+    overflow: hidden;
+}
+
+.news-three ul li {
+    float: left;
+    width: 50%;
+    height: 36px;
+    padding-left: 30px;
+    background: url("../images/index/icons_video.jpg") no-repeat left top;
+    box-sizing: border-box;
+}
+
+.news-three ul li a {
+    font-size: 14px;
+    color: #999;
+}
+
+.news-five ul {
+    padding-top: 24px;
+    overflow: hidden;
+}
+
+.news-five ul li {
+    float: left;
+    width: 50%;
+    height: 36px;
+    padding: 0 0 0 20px;
+    background: url("../images/index/icons_tri7.png") no-repeat left 3px;
+    box-sizing: border-box;
+}
+
+.news-five ul li span {
+    float: left;
+    width: 80px;
+    height: 20px;
+    margin-right: 10px;
+    border-right: 1px solid #666;
+}
+
+.news-five ul li a {
+    float: left;
+    width: 200px;
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+footer {
+    background-color: #242424;
+    font-size: 14px;
+}
+
+.foot-top {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.foot-top-left {
+    float: left;
+    width: 450px;
+}
+
+.foot-top-left ul {
+    float: left;
+    width: 150px;
+}
+
+.foot-top-left ul:nth-of-type(3) {
+    border-right: 1px solid #666;
+    box-sizing: border-box;
+}
+
+.foot-top-left ul li h2 {
+    color: #a5a5a5;
+    font-weight: bold;
+}
+
+.foot-top-left ul li a {
+    line-height: 25px;
+    color: #fff;
+}
+
+.foot-top-right {
+    float: left;
+    width: 720px;
+    overflow: hidden;
+}
+
+.foot-top-right ul {
+    float: left;
+}
+
+.partner {
+    width: 250px;
+    padding: 0 0 0 65px;
+    box-sizing: border-box;
+    line-height: 25px;
+}
+
+.partner a {
+    color: #fff;
+}
+
+.address {
+    width: 345px;
+    line-height: 25px;
+    color: #a5a5a5;
+}
+
+.address li:nth-child(2) {
+    color: #fff;
+}
+
+.address li:nth-child(5) {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.weixin img {
+    width: 125px;
+}
+
+.foot-bottom {
+    background-color: #333;
+}
+
+.foot-bottom-main {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height: 70px;
+}
+
+.foot-bottom-left {
+    float: left;
+}
+
+.copyright {
+    float: right;
 }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-cn-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="./css/css-reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <title>音乐播放器</title>
+</head>
+
+<body>
+    <div id="panel">
+        <audio id="music" autoplay="true" src="./images/玫瑰.mp3"></audio>
+        <div class="minPanel"></div>
+        <header>
+            <div class="back"><i class="iconfont icon-houtui"></i></div>
+            <div class="share"><i class="iconfont icon-fenxiang"></i></div>
+            <div class="title">
+                <p class="song-name">春暖花开</p>
+                <p class="singer">伊能静</p>
+            </div>
+        </header>
+        <main>
+            <div class="rotate">
+                <div class="needle"></div>
+                <div class="disco">
+                    <div class="singer-pic"><img src="" alt=""></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="control">
+                <div class="volume">
+                    <div class="volume-btn"><i class="iconfont icon-yinliang"></i></div>
+                    <div class="volume-bar">
+                        <div class="volume-all">
+                            <div class="volume-current"></div>
+                            <div class="volume-dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lyric-btn" style="display: none;"><i class="iconfont icon-zhuomiangeci"></i></div>
+                <div class="progress">
+                    <div class="current-time">0:00</div>
+                    <div class="all-time">0:00</div>
+                    <div class="progress-bar">
+                        <div class="progress-all">
+                            <div class="progress-current"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="playcontrol">
+                    <div class="download" style="visibility:hidden"><i class="iconfont icon-download"></i></div>
+                    <div class="pre"><i class="iconfont icon-nextvideo-copy1"></i></div>
+                    <div class="play"><i class="iconfont icon-bofang"></i></div>
+                    <div class="next"><i class="iconfont icon-nextvideo-copy"></i></div>
+                    <div class="play-list"><i class="iconfont icon-liebiao-copy"></i></div>
+                    <div class="play-list-item" style="display:none;">
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/draggabilly.js"></script>
+<script src="./js/index.js"></script>
+</html>
